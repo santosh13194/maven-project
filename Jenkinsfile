@@ -11,7 +11,7 @@ stage('cloning code')
 
 steps
 
-{git branch: 'mynewwbranch', url: 'https://github.com/santosh13194/maven-project.git'
+{git 'https://github.com/santosh13194/maven-project.git'
 }
 }
 
