@@ -21,6 +21,7 @@ steps
 {
 withMaven(jdk: 'Java', maven: 'Maven') {
     sh 'mvn compile'
+	println 'added println'
 }}}
     
 stage('test my project')
